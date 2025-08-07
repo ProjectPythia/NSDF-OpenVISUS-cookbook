@@ -2,12 +2,6 @@
 
 <img src="./thumbnails/nsdf.png" alt="NSDF Logo" width="300"/>
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
-
-_See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
-
 This Project Pythia Cookbook covers **working with large-scale scientific data using OpenViSUS**.
 
 ## Motivation
@@ -21,7 +15,7 @@ OpenViSUS enables interactive analysis and visualization of petabyte-scale scien
 ### Contributors
 
 <a href="https://github.com/sci-visus/OpenVisus/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sci-visus/OpenVisus" />
+  <img src="https://contrib.rocks/image?repo=sci-visus/openvisuspy" />
 </a>
 
 ## Structure
@@ -30,7 +24,7 @@ This cookbook is organized into sections, which you can select from the sidebar 
 
 
 ### Preamble
-General information and context for the NSDF-OpenVISUS Cookbook.
+Information on citing this NSDF-OpenVISUS Cookbook.
 
 ### Introduction to NSDF-OpenVISUS
 Overview of the NSDF-OpenVISUS framework, its motivation, and its role in scientific data visualization.
@@ -44,7 +38,7 @@ Visualization and analysis of the ECCO LLC4320 ocean dataset, including data acc
 
 ## Running the Notebooks
 
-You can either run the notebook using [Binder](https://binder.projectpythia.org/) or on your local machine.
+You can either run the notebook using [Project Pythia Binder](https://binder.projectpythia.org/) or on your local machine.
 
 ### Running on Binder
 
@@ -56,24 +50,24 @@ Note: Not all Cookbook chapters are executable. If you do not see the rocket shi
 
 If you are interested in running this material locally on your computer, follow this workflow:
 
-1. Clone the `https://github.com/sci-visus/OpenVisus` repository:
+1. Clone the `https://github.com/ProjectPythia/nsdf-openvisus-cookbook` repository:
 
    ```bash
-   git clone https://github.com/sci-visus/OpenVisus.git
+   git clone https://github.com/ProjectPythia/nsdf-openvisus-cookbook
    ```
 
 2. Move into the `OpenVisus` directory:
    ```bash
-   cd OpenVisus
+   cd nsdf-openvisus-cookbook
    ```
 3. Create and activate your conda environment from the `environment.yml` file:
    ```bash
    conda env create -f environment.yml
-   conda activate openvisus
+   conda activate nsdf-cookbook
    ```
 4. Move into the `Samples/jupyter` directory and start up JupyterLab:
    ```bash
-   cd Samples/jupyter/
+   cd notebooks
    jupyter lab
    ```
 
