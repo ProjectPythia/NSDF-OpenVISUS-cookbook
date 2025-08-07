@@ -1,6 +1,6 @@
-# NSDF-OpenVISUS Cookbook
+# NSDF-OpenViSUS Cookbook
 
-<img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
+<img src="./thumbnails/nsdf.png" alt="NSDF Logo" width="300"/>
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
@@ -8,33 +8,39 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers **working with large-scale scientific data using OpenViSUS**.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+OpenViSUS enables interactive analysis and visualization of petabyte-scale scientific datasets on any device, from supercomputers to personal laptops. This cookbook will help you learn how to store, query, and visualize big data efficiently using OpenViSUS tools and formats.
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Aashish Panta](https://github.com/aashishpanta0), Valerio Pascucci,  Amy Gooch, [Giorgio Scorzelli](https://github.com/scrgiorgio)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/sci-visus/OpenVisus/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sci-visus/OpenVisus" />
 </a>
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is organized into sections, which you can select from the sidebar on the left (see image above). Each section covers a different topic or dataset relevant to NSDF-OpenVISUS:
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Preamble
+General information and context for the NSDF-OpenVISUS Cookbook.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Introduction to NSDF-OpenVISUS
+Overview of the NSDF-OpenVISUS framework, its motivation, and its role in scientific data visualization.
 
-(Add content for this section, e.g., "Example workflows include ... ")
+### NASA DYAMOND Datasets (C1440–LLC2160)
+Workflows for visualizing and analyzing NASA DYAMOND atmospheric and ocean datasets.
+
+### ECCO LLC4320 Datasets
+Visualization and analysis of the ECCO LLC4320 ocean dataset, including data access, processing, and interactive exploration.
+
 
 ## Running the Notebooks
 
@@ -42,49 +48,48 @@ You can either run the notebook using [Binder](https://binder.projectpythia.org/
 
 ### Running on Binder
 
-The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://binder.projectpythia.org/), which enables the execution of a
-[Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
-important for now. All you need to know is how to launch a Pythia
-Cookbooks chapter via Binder. Simply navigate your mouse to
-the top right corner of the book chapter you are viewing and click
-on the rocket ship icon, (see figure below), and be sure to select
-“launch Binder”. After a moment you should be presented with a
-notebook that you can interact with. I.e. you’ll be able to execute
-and even change the example programs. You’ll see that the code cells
-have no output at first, until you execute them by pressing
-{kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
-a live Jupyter notebook are described in [Getting Started with
-Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter).
+The simplest way to interact with a Jupyter Notebook is through [Binder](https://binder.projectpythia.org/), which enables the execution of a [Jupyter Book](https://jupyterbook.org) in the cloud. To launch a Pythia Cookbooks chapter via Binder, click the rocket ship icon at the top right corner of the book chapter and select “launch Binder.” After a moment, you should be presented with a notebook that you can interact with. You’ll be able to execute and even change the example programs. Code cells have no output at first, until you execute them by pressing {kbd}`Shift`+{kbd}`Enter`. See [Getting Started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter) for more details.
 
-Note, not all Cookbook chapters are executable. If you do not see
-the rocket ship icon, such as on this page, you are not viewing an
-executable book chapter.
-
+Note: Not all Cookbook chapters are executable. If you do not see the rocket ship icon, you are not viewing an executable book chapter.
 
 ### Running on Your Own Machine
 
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
+If you are interested in running this material locally on your computer, follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/sci-visus/OpenVisus` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+   git clone https://github.com/sci-visus/OpenVisus.git
    ```
 
-1. Move into the `cookbook-example` directory
+2. Move into the `OpenVisus` directory:
    ```bash
-   cd cookbook-example
+   cd OpenVisus
    ```
-1. Create and activate your conda environment from the `environment.yml` file
+3. Create and activate your conda environment from the `environment.yml` file:
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate openvisus
    ```
-1. Move into the `notebooks` directory and start up Jupyterlab
+4. Move into the `Samples/jupyter` directory and start up JupyterLab:
    ```bash
-   cd notebooks/
+   cd Samples/jupyter/
    jupyter lab
    ```
+
+## References
+- <a href="https://nationalsciencedatafabric.org/" target="_blank">National Science Data Fabric</a>
+- <a href="https://github.com/sci-visus/OpenVisus" target="_blank">OpenVisus</a>
+- <a href="https://github.com/sci-visus/OpenVisuspy" target="_blank">OpenVisuspy</a>
+
+---
+Please consult these papers for technical details and use cases:
+
+- <a href="https://arxiv.org/abs/2408.11831v1" target="_blank"> Web-based Visualization and Analytics of Petascale data: Equity as a Tide that Lifts All Boats </a>
+- <a href="https://arxiv.org/abs/2009.03254" target="_blank"> Interactive Visualization of Terascale Data in the Browser: Fact or Fiction?  </a>
+- <a href="https://sci.utah.edu/publications/Kum2014a/KumarISC2014.pdf" target="_blank">Fast Multiresolution Reads of Massive Simulation Datasets</a>
+
+ *Please reach out to Aashish Panta, Giorgio Scorzelli or Valerio Pascucci for any concerns about the notebook. Thank you!*
+- Aashish Panta (aashishpanta0@gmail.com)
+- Giorgio Scorzelli (scrgiorgio@gmail.com)
+- Valerio Pascucci (pascucci.valerio@gmail.com)
