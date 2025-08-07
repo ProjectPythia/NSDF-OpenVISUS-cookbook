@@ -9,6 +9,7 @@ dependencies:
   - pip
   - matplotlib
   - bokeh
+  - panel
   - xmltodict
   - colorcet
   - boto3
