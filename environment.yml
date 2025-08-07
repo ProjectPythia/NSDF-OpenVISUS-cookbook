@@ -1,7 +1,18 @@
-name: cookbook-dev
+name: nsdf-cookbook
 channels:
   - conda-forge
 dependencies:
+  - python=3.12
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - pip
+  - matplotlib
+  - bokeh
+  - xmltodict
+  - colorcet
+  - boto3
+  - basemap
+  - pip:
+      - OpenVisus
+      - openvisuspy
