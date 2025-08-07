@@ -11,7 +11,7 @@ We gratefully acknowledge the support and contributions from the following organ
   </div>
   <div style="text-align: center;">
     <img src="../thumbnails/PelicanPlatformLogo.png" alt="Pelican Platform Logo" width="150"/><br>
-    <span>Pelica</span>
+    <span>Pelican</span>
   </div>
   <div style="text-align: center;">
     <img src="../thumbnails/nasa.jpg" alt="nasa" width="150"/><br>
