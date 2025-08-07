@@ -1,1 +1,1 @@
-import{a}from"/NSDF-OpenVISUS-cookbook/build/_shared/chunk-2YEAM2KW.js";import"/NSDF-OpenVISUS-cookbook/build/_shared/chunk-7H4MNJGC.js";import"/NSDF-OpenVISUS-cookbook/build/_shared/chunk-ZOXRFJWB.js";import"/NSDF-OpenVISUS-cookbook/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/nsdf-openvisus-cookbook/build/_shared/chunk-2YEAM2KW.js";import"/nsdf-openvisus-cookbook/build/_shared/chunk-7H4MNJGC.js";import"/nsdf-openvisus-cookbook/build/_shared/chunk-ZOXRFJWB.js";import"/nsdf-openvisus-cookbook/build/_shared/chunk-2NH4LW52.js";export default a();
