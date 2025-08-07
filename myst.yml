@@ -26,6 +26,8 @@ project:
     - title: ECCO LLC4320 Datasets
       children:
         - file: notebooks/Ocean_llc4320_visualization.ipynb
+    - title: Acknowledgements
+        - file: notebooks/acknowledgements.md
   jupyter:
       binder:
         repo: projectpythia/nsdf-openvisus-cookbook
