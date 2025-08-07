@@ -27,6 +27,7 @@ project:
       children:
         - file: notebooks/Ocean_llc4320_visualization.ipynb
     - title: Acknowledgements
+      children:
         - file: notebooks/acknowledgements.md
   jupyter:
       binder:
