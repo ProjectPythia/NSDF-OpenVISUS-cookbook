@@ -8,6 +8,19 @@ This Project Pythia Cookbook covers **working with large-scale scientific data u
 
 OpenViSUS enables interactive analysis and visualization of petabyte-scale scientific datasets on any device, from supercomputers to personal laptops. This cookbook will help you learn how to store, query, and visualize big data efficiently using OpenViSUS tools and formats.
 
+### Hierarchical Z-Order Data Storage
+
+The NSDF-OpenVISUS framework leverages hierarchical Z-order curve for efficient data storage and access. This method organizes data to preserve spatial locality, enabling fast multi-resolution queries and scalable visualization.
+
+Below is an illustration of hierarchical Z-order refinement:
+
+<img src="./thumbnails/data_layout_OV.png" alt="Hierarchical Z-order refinement" width="350"/>
+
+**Panels:**
+* (a) Initial coarse data points (green) and new level data (red).
+* (b), (c) Progressive subdivision, adding new data points in Z-order.
+* (d) Fully refined grid, showing efficient hierarchical access.
+
 ## Authors
 
 [Aashish Panta](https://github.com/aashishpanta0), Valerio Pascucci,  Amy Gooch, [Giorgio Scorzelli](https://github.com/scrgiorgio)
