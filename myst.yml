@@ -4,7 +4,7 @@ extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
   title: NSDF-OpenVISUS Cookbook
-  github: https://github.com/ProjectPythia/NSDF-OpenVISUS-cookbook
+  github: https://github.com/ProjectPythia/nsdf-openvisus-cookbook
   authors:
     - name: Aashish Panta
     - name: Amy Gooch
@@ -28,4 +28,4 @@ project:
         - file: notebooks/Ocean_llc4320_visualization.ipynb
   jupyter:
       binder:
-        repo: projectpythia/NSDF-OpenVISUS-cookbook
+        repo: projectpythia/nsdf-openvisus-cookbook
