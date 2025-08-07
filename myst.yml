@@ -3,19 +3,29 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: NSDF-OpenVISUS Cookbook
+  github: https://github.com/ProjectPythia/NSDF-OpenVISUS-cookbook
   authors:
-    - name: The Project Pythia Community
+    - name: Aashish Panta
+    - name: Amy Gooch
+    - name: Giorgio Scorzelli
+    - name: Valerio Pascucci
   copyright: '2024'
   toc:
     - file: README.md
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - title: Introduction
+    - title: Introduction to NSDF-OpenVISUS
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/Introduction_to_NSDF_OpenVISUS.ipynb
+    - title: NASA DYAMOND Datasets (C1440-LLC2160)
+      children:
+        - file: notebooks/Atmosphere_llc2160_visualization.ipynb
+        - file: notebooks/Ocean_llc2160_visualization.ipynb
+    - title: ECCO LLC4320 Datasets
+      children:
+        - file: notebooks/Ocean_llc4320_visualization.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: projectpythia/NSDF-OpenVISUS-cookbook
