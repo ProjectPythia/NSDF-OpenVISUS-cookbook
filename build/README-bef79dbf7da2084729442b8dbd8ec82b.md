@@ -21,6 +21,9 @@ Below is an illustration of hierarchical Z-order refinement:
 * (b), (c) Progressive subdivision, adding new data points in Z-order.
 * (d) Fully refined grid, showing efficient hierarchical access.
 
+**Note:** This cookbook is part of the larger OSDF Cookbook, which can be found at <https://projectpythia.org/osdf-cookbook/>.
+
+
 ## Authors
 
 [Aashish Panta](https://github.com/aashishpanta0), Valerio Pascucci,  Amy Gooch, [Giorgio Scorzelli](https://github.com/scrgiorgio)
