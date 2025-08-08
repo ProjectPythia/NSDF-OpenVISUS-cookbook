@@ -26,6 +26,9 @@ project:
     - title: ECCO LLC4320 Datasets
       children:
         - file: notebooks/Ocean_llc4320_visualization.ipynb
+    - title: 2026 IEEE SciVis Contest
+      children:
+        - file: notebooks/scivis-contest-2026.md
     - title: Acknowledgements
       children:
         - file: notebooks/acknowledgements.md
